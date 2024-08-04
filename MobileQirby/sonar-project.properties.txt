@@ -1,0 +1,37 @@
+# Identifikasi proyek
+sonar.projectKey=mantap
+sonar.projectName=mantap
+sonar.projectVersion=1.0
+
+# Lokasi kode sumber.
+# Path relatif terhadap berkas sonar-project.properties. Defaultnya adalah .
+# Gunakan koma untuk menentukan lebih dari satu file/folder.
+# Disarankan untuk menambahkan pubspec.yaml ke sources karena analyzer
+# mungkin memunculkan peringatan untuk berkas ini juga.
+sonar.sources=lib,pubspec.yaml
+sonar.tests=test
+
+# Encoding kode sumber. Defaultnya adalah encoding sistem default.
+sonar.sourceEncoding=UTF-8
+
+# Mode analisis
+# Bisa:
+# - DETECT (mencoba mendeteksi secara otomatis) - default
+# - MANUAL (harus menyediakan laporan yang sudah ada)
+# - FLUTTER (flutter analyze)
+# - DART (dart analyze)
+# - DARTANALYZER (dartanalyzer)
+sonar.dart.analyzer.mode=DETECT
+
+# Memungkinkan penggunaan kembali laporan analyzer yang sudah ada ketika mode adalah MANUAL
+# sonar.dart.analyzer.report.path=
+
+# Mode output laporan analyzer
+# Bisa:
+# - DETECT (mencoba mendeteksi secara otomatis, membutuhkan SDK Dart di PATH) - default
+# - MACHINE (format output baru yang dapat dibaca mesin, tersedia untuk Dart 2.12+)
+# - LEGACY (mencoba mengurai output yang bisa dibaca manusia dari dart/flutter) - default
+sonar.dart.analyzer.report.mode=DETECT
+sonar.dart.analyzer.options.override=true
+
+sonar.exclusions=**/*.java

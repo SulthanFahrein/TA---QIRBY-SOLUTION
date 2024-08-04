@@ -1,0 +1,6 @@
+projectKey=mantao
+serverUrl=http://localhost:9000
+serverVersion=10.6.0.92116
+dashboardUrl=http://localhost:9000/dashboard?id=mantao
+ceTaskId=c8217fe1-10fe-4bd1-a12b-49f45d9669c1
+ceTaskUrl=http://localhost:9000/api/ce/task?id=c8217fe1-10fe-4bd1-a12b-49f45d9669c1
